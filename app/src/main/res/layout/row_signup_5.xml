@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="signup5RowModel" type="com.application.app.modules.signup4.data.model.Signup5RowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frame"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" style="@style/groupStyleindigo_500cornerRadius">
+        <ImageView android:id="@+id/image"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_17pxv"
+            android:layout_marginBottom="@dimen/_13pxv"
+            android:layout_marginEnd="@dimen/_14pxh"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="@dimen/_17pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_facebook_1"/>
+    </FrameLayout>
+</layout>
